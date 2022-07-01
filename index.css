@@ -257,12 +257,40 @@
   grid-template-columns: repeat(4,23%);
   gap: 30px;
   line-height: 25px;
-  color: #42464b;
+  color: #5e6063;
   font-weight: 100;
+  font-family: sans-serif;
 }
 #grid_8 img{
   /* border: 1px solid red; */
   width: 50%;
   height: 100px;
   margin-left: 20%;
+}
+#grid3{
+  display: grid;
+  margin-top: 50px;
+  gap: 20px;
+  grid-template-columns: repeat(3,33%);
+}
+#features{
+  background-color: rgb(58,69,77);
+  margin-top: 80px;
+  width: 100%;
+  height: 530px;
+}
+#features img{
+  width: 340px;
+}
+#features h4{
+  margin-top: 30px;
+  color: rgb(221, 219, 219);
+  font-weight: 200;
+}
+#features p{
+  color: white;
+  margin-top: 20px;
+  line-height: 26px;
+  font-weight: 200;
+  font-size: 14px;
 }
