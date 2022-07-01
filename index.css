@@ -4,8 +4,8 @@
     box-sizing: border-box;
   }
   
-  /* navbar css start here... */
-  .navbar {
+  /*#navbar css start here... */
+  #navbar {
     font-family: sans-serif;
     border: 1px solid;
     height: 80px;
@@ -17,17 +17,17 @@
   
     z-index: 1000;
   }
-  .navbar > div {
+  #navbar > div {
     display: flex;
     width: 65%;
     margin: auto;
   }
-  .companyName {
+  #compName {
     /* border: 1px solid white; */
     flex: 2;
     margin: 30px 0;
   }
-  .companyName > a {
+  #compName > a {
     color: #fff;
     text-decoration: none;
     font-size: 15px;
@@ -58,7 +58,7 @@
   .navBtns > a:focus {
     border: 2px solid #23b7a3;
   }
-  /* navbar css end here... */
+  /*#navbar css end here... */
   
   .container {
     margin-top: 78px;
@@ -178,7 +178,7 @@
 .fa:hover {
   opacity: 0.7;
 }
-.fa-facebook ,.fa-twitter,.fa-dribbble{
+.fa{
   background: #838996;
   color: white;
 }
@@ -293,4 +293,59 @@
   line-height: 26px;
   font-weight: 200;
   font-size: 14px;
+}
+#stay{
+  display: flex;
+  margin-top: 50px;
+  margin-left: 10%;
+  color: #2e343a;
+  font-weight: 200;
+}
+#map_div{
+  width: 100%;
+}
+#map{
+  width: 100%;
+  height: 300px;
+  margin-top: 40px;
+}
+#contDiv {
+ 
+  width: 550px;
+  margin: 35px;
+  height: 232px;
+  margin-left: 17.6%;
+}
+#contDiv > h5 {
+  font-size: 16px;
+  padding: 0 10px;
+  font-weight: 600;
+}
+#contDiv > p {
+  font-size: 14px;
+  line-height: 23px;
+  word-spacing: 3px;
+  margin: 35px 0;
+  color: #8d8f92;
+}
+#map_img{
+  position: relative;
+}
+#input_div{
+  border: 1px solid red;
+  width: 400px;
+  height: 340px;
+  position: absolute;
+  margin-top: -30%;
+  margin-left: 60%;
+  background-color: white;
+}
+#footer{
+  background-color: rgb(58,69,77); 
+  height: 60px;
+  color: rgb(204, 202, 202);
+  display: flex;
+  font-family: sans-serif;
+  padding-left: 17%;
+  padding-top: 19px;
 }
