@@ -104,10 +104,13 @@
     width: 80%;
     margin: auto;
     margin-top: 50px;
-    /* font-family : "Open Sans", sans-serif; */
-   color: #665f5f;
-   /* font-weight: 100; */
-    font-size: 13px
+   
+   
+   
+  }
+  #we_are_modest h2{
+    color: #56575a;
+    font-family: sans-serif;
   }
   #topic{
     display: flex;
