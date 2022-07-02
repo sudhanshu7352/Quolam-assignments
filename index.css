@@ -31,6 +31,7 @@
     color: #fff;
     text-decoration: none;
     font-size: 15px;
+    font-weight: 600;
   }
   
   .navBtns {
@@ -195,7 +196,7 @@
   width: 100%;
  
 }
-#person_details{
+#person_details,#person_details2,#img_div+div{
   background-color: #c8cbcf;
   margin-top: -4px;
   padding: 10px;
@@ -211,35 +212,30 @@
 #img_div{
   position: relative;
 }
-#icon_per{    
+#icon_per,#icon_per2,#img_div>div{    
   /* border: 2px solid red; */
   position: absolute;
   margin-left: 20%;
   margin-top: -60%;
   display: none;
 }
-#icon_per>a{
-  background-color:  #2e343a;
+#icon_per>a,#icon_per2>a,#img_div>div>a{
+  background-color: rgb(58,69,77);;
+}
+#icon_per>a:hover,#icon_per2>a:hover,#img_div>div>a:hover{
+ opacity: 80%;
 }
 #person img:hover{
   opacity: 70%;
   cursor: pointer;
 }
-#person:hover{
-  /* opacity: 70%; */
-  cursor: pointer;
-}
+
 #img_div img{
  position: relative;
 }
 
-#person_details:hover{
-  cursor: pointer;
-  background-color: #2e343a;
-  color: white;
- 
-}
-#person_details>p:nth-child(2){
+
+#person_details>p:nth-child(2),#person_details2>p:nth-child(2),#img_div+div>p:nth-child(2){
  color: #838996;
 }
 #lovely_work{
